@@ -1,0 +1,56 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.box1 {
+  font-size: 20px;
+}
+
+.str {
+  font-weight: bold;
+}
+
+.box2 {
+  line-height: 70px;
+  margin: 40px;
+}
+
+.str1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.font-flash {
+  margin: 30px;
+  font-size: 13px;
+  color: #66cdaa;
+}
+
+table {
+  font-size: 13px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

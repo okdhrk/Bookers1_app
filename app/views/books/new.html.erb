@@ -1,0 +1,12 @@
+<div class="font-flash">
+    <%= flash[:alert] %>
+</div>
+
+<div class="box2">
+    Title: <%= @book.title %><br>
+    Body: <%= @book.body %>
+</div>
+
+<%= link_to "Edit", books_path(@book) %>
+|
+<%= link_to "Back", books_path(@book) %>
