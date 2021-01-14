@@ -11,8 +11,7 @@ class BooksController < ApplicationController
   def create
     @book = Book.new(book_params)
     if @book.save
-      flash.now[:alert] = "Book was successfully updated."
-      redirect_to book_path(@book)
+      redirect_to book_path(@book), notice: "Book was successfully updated."
     else
       @books = Book.all
       render "index"
